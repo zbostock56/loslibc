@@ -1,0 +1,2 @@
+# Minimal config so a superproject can do: find_package(loslibc CONFIG REQUIRED)
+include(${CMAKE_CURRENT_LIST_DIR}/../../../${CMAKE_INSTALL_LIBDIR}/cmake/loslibc/loslibcTargets.cmake OPTIONAL)
